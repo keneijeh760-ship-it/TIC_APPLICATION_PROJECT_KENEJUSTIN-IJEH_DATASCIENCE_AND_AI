@@ -15,14 +15,7 @@ FRONTEND_ORIGINS = [
 ]
 CORS(app, resources={r"/*": {"origins": FRONTEND_ORIGINS}})
 
-# Adjust model path if necessary
-MODEL_PATH = os.path.join(
-    os.path.dirname(__file__),
-    '..',
-    'src',
-    'assets',
-    'student_performance_pipeline.pkl'
-)
+
 
 # Load model safely
 if not os.path.exists(MODEL_PATH):
@@ -67,3 +60,4 @@ def index():
 
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
+
