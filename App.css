@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: #2565a4;
+    color: #0f172a;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(90deg, #0f172a, #111827);
+    color: #fff;
+}
+
+.header .brand{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a{
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.nav-links a:hover,
+.nav-links a:focus{
+    background: rgba(255,255,255,0.06);
+    color: #fff;
+}
+
+
+.container{
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1.25rem;
+}
+
+.content{
+    background: rgba(255,255,255,0.06);
+    padding: 1.25rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(2,6,23,0.35);
+}
+
+.content h2{
+    margin-top: 0;
+    color: #f8fafc;
+}
+
+.content form{
+    display: grid;
+    gap: 0.75rem;
+}
+
+.content label{
+    font-weight: 600;
+    color: #e6eef8;
+}
+
+.content input[type="number"]{
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.02);
+    color: #fff;
+}
+
+.content button[type="submit"]{
+    padding: 0.6rem 0.9rem;
+    border-radius: 8px;
+    border: none;
+    background: #06b6d4;
+    color: #06202a;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+ 
+
+
